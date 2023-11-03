@@ -12,7 +12,7 @@ server = flask.Flask(__name__)
 
 @server.route("/")
 def home():
-    return "Hello, Flask2!"
+    return "請看-/app1,/app2"
 
 application = DispatcherMiddleware(
     server,
